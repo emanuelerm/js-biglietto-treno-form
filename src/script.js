@@ -40,7 +40,7 @@ btn.addEventListener('click', function () {
     }
 
 
-    else if (passengersAge >= 66) {
+    else if (age >= 66) {
         ticketPrice = (priceForDistance * discountOver + priceForDistance).toFixed(2);
     }
     price.innerHTML = `${ticketPrice} €`;
